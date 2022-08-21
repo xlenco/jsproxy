@@ -11,8 +11,8 @@ jsproxy_config({
   },
 
   // 节点配置
-#  node_map: {
-    'demo-hk': {
+  node_map: {
+#    'demo-hk': {
       label: '演示服务-香港节点',
       lines: {
         // 主机:权重
