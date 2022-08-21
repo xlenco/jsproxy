@@ -22,7 +22,7 @@ jsproxy_config({
       label: 'done节点',
       lines: {
         'xlenco-jsproxy.deno.dev': 1,
-      },
+      }
     },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
