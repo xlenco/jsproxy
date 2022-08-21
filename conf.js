@@ -12,17 +12,17 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-#    'demo-hk': {
-#      label: '演示服务-香港节点',
-#      lines: {
+    'demo-hk': {
+      label: '演示服务-香港节点',
+      lines: {
         // 主机:权重
         'node-aliyun-hk-1.etherdream.com:8443': 1,
         'node-aliyun-hk-2.etherdream.com:8443': 2,
       }
     },
-#    'demo-sg': {
-#      label: '演示服务-新加坡节点',
-#      lines: {
+    'demo-sg': {
+      label: '演示服务-新加坡节点',
+      lines: {
         'node-aliyun-sg.etherdream.com:8443': 1,
       },
     },
@@ -65,7 +65,7 @@ jsproxy_config({
    * 静态资源 CDN 地址
    * 用于加速 `assets` 目录中的资源访问
    */
-  assets_cdn: 'https://cdn.jsdelivr.net/gh/xlenco/jsproxy@gh-pages/assets/',
+  // assets_cdn: 'https://cdn.jsdelivr.net/gh/xlenco/jsproxy@gh-pages/assets/',
 
   // 本地测试时打开，否则访问的是线上的
   assets_cdn: 'assets/',
