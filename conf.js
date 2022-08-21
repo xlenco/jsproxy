@@ -18,6 +18,12 @@ jsproxy_config({
         'jp.nsso.eu.org': 1,
       }
     },
+    'done节点': {
+      label: 'done节点',
+      lines: {
+        'xlenco-jsproxy.deno.dev': 1,
+      },
+    },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: '',
