@@ -18,7 +18,7 @@ jsproxy_config({
         'jp.nsso.eu.org': 1,
       }
     },
-    'done节点': {
+    'done': {
       label: 'done节点',
       lines: {
         'xlenco-jsproxy.deno.dev': 1,
