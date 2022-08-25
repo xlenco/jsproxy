@@ -13,7 +13,7 @@ jsproxy_config({
   // 节点配置
   node_map: {
     'mysite': {
-      label: '当前站点',
+      label: 'cf-work节点',
       lines: {
         'jp.nsso.eu.org': 1,
       }
