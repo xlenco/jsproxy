@@ -15,7 +15,7 @@ jsproxy_config({
     'mysite': {
       label: 'done节点',
       lines: {
-        'jsproxy.xlenco.top': 1,
+        'https://jsproxy.xlenco.top': 1,
       }
     },
     'done': {
