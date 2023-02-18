@@ -13,9 +13,15 @@ jsproxy_config({
   // 节点配置
   node_map: {
     'mysite': {
-      label: 'done节点',
+      label: 'done',
       lines: {
-        'https://jsproxy.xlenco.top': 1,
+        'xlenco-jsproxy.deno.dev': 1,
+      }
+    },
+    'done': {
+      label: 'none',
+      lines: {
+        '': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
