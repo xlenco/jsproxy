@@ -15,7 +15,7 @@ jsproxy_config({
     'mysite': {
       label: 'done',
       lines: {
-        'xlenco-jsproxy.deno.dev': 1,
+        'https://xlenco-jsproxy.deno.dev': 1,
       }
     },
     'done': {
